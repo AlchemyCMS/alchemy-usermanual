@@ -1,0 +1,6 @@
+- name: test_element
+  contents:
+
+- name: another_test_element
+  unique: true
+  contents:

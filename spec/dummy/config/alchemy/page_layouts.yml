@@ -1,0 +1,2 @@
+- name: test_page
+  elements: ['test_element', 'another_test_element']

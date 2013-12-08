@@ -1,0 +1,25 @@
+# encoding: UTF-8
+---
+de:
+  alchemy:
+    modules:
+        user_manual: Handbuch
+    user_manual:
+      introduction_text: "In diesem Handbuch finden Sie Informationen über die im Content management system verfügbaren [Seitentypen](#page_layouts) und [Elemente](#elements), ganz individuell für Ihre Website. Außerdem erhalten Sie nähere Informationen darüber, wozu die jeweiligen [Seitentypen](#page_layouts) und [Elemente](#elements) dienen und wie sie einzusetzen sind."
+      element_amount: Mögliche Anzahl pro Seite
+      once_per_page: Einmal pro Seite
+      available_elements: Verfügbare Elemente
+      user_manual: Benutzerhandbuch
+      manual_for: "Benutzerhandbuch für %{project_name}"
+      website_structure: "Liste der verfügbaren Seitentypen und der darauf verfügbaren Elemente"
+      page_layout_descriptions: "Beschreibung der Seitentypen"
+      element_descriptions: "Beschreibung der Elemente"
+      properties: Eigenschaften
+      no_description: Keine Beschreibung vorhanden.
+      "true": Ja
+      "false": Nein
+      none: Keine
+      unlimited: Unendlich
+      element_autogenerating: "Automatisch erstellte Elemente beim Anlegen der Seite"
+      uniqueness: "Einmalig verwendbar"
+      layoutpage: "globale Seite"

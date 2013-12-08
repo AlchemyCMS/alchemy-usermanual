@@ -1,0 +1,25 @@
+# encoding: UTF-8
+---
+en:
+  alchemy:
+    modules:
+      user_manual: Manual
+    user_manual:
+      introduction_text: "With this user manual you will get informations about your very individual [page types](#page_layouts) and [elements](#elements) available in the content management system. Furthermore you will get details about what the [page types](#page_layouts) and [elements](#elements) are used to and how you use them."
+      element_amount: Possible count per page
+      once_per_page: Once per page
+      available_elements: Available elements
+      user_manual: "User manual"
+      manual_for: "User manual for %{project_name}"
+      website_structure: "Listing of all available page layouts and their elements"
+      page_layout_descriptions: "Description for page layouts"
+      element_descriptions: "Description for elements"
+      properties: Properties
+      no_description: No description available yet.
+      "true": yes
+      "false": no
+      none: None
+      unlimited: Unlimited
+      element_autogenerating: "Autogenerating of elements"
+      uniqueness: "uniquely usable"
+      layoutpage: "global page"
