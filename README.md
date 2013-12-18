@@ -19,7 +19,7 @@ And then run `bundle install` on your terminal.
 
 ## Usage
 
-You just need to add the gem to your alchemy driven application. Then the manual module available for the user.
+You just need to add the gem to your alchemy driven application. Then the manual module will be available for the user.
 
 By default translated informations of the `page_layouts.yml` and `elements.yml` files are presented to the user.
 If you like to extend the default informations with your individual hints for page_layouts or elements, you can store that translatable hints in your page_layouts.yml` and `elements.yml`.
@@ -33,7 +33,7 @@ If you like to extend the default informations with your individual hints for pa
   elements: [...]
 
 # /config/locales/en.yml
-de:
+en:
   alchemy:
     page_layout_hints:
       product_detail: "This page template is used for presenting all the details of one certain product... You can write a full description of what the page template is used to and what the user should consider when using it."
@@ -48,7 +48,7 @@ de:
   elements: [...]
 
 # /config/locales/en.yml
-de:
+en:
   alchemy:
     element_hints:
       product_video: "This element is used to play the youtube video of your product... You can write a full description of what the element is used to and what the user should consider when using it."
