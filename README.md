@@ -1,8 +1,10 @@
 ## On-site user manual for Alchemy CMS
 
-This gem checks your aplications page_layouts.yml and elements.yml and wraps all the interesting stuff into a module in the admin-frontend of (alchemy_cms)[https://github.com/magiclabs/alchemy_cms].
+[![Build Status](https://secure.travis-ci.org/magiclabs/alchemy-usermanual.png)](http://travis-ci.org/magiclabs/alchemy-usermanual) [![Coverage Status](https://coveralls.io/repos/magiclabs/alchemy-usermanual/badge.png)](https://coveralls.io/r/magiclabs/alchemy-usermanual)
 
-So the end-user can read through the self explaining website configuration.
+This gem checks your `page_layouts.yml` and `elements.yml` and wraps all the interesting stuff into a module in the admin-frontend of your [alchemy_cms](https://github.com/magiclabs/alchemy_cms) driven application.
+
+The users that are logged in to alchemy can read through the self explaining website configuration.
 
 ## Installation
 
