@@ -1,6 +1,6 @@
 ## On-site user manual for Alchemy CMS
 
-[![Build Status](https://secure.travis-ci.org/magiclabs/alchemy-usermanual.png)](http://travis-ci.org/magiclabs/alchemy-usermanual) [![Coverage Status](https://coveralls.io/repos/magiclabs/alchemy-usermanual/badge.png)](https://coveralls.io/r/magiclabs/alchemy-usermanual)
+[![Build Status](https://secure.travis-ci.org/magiclabs/alchemy-usermanual.png)](http://travis-ci.org/magiclabs/alchemy-usermanual) [![Coverage Status](https://coveralls.io/repos/magiclabs/alchemy-usermanual/badge.png)](https://coveralls.io/r/magiclabs/alchemy-usermanual) [![Code Climate](https://codeclimate.com/github/magiclabs/alchemy-usermanual.png)](https://codeclimate.com/github/magiclabs/alchemy-usermanual)
 
 This gem checks your `page_layouts.yml` and `elements.yml` and wraps all the interesting stuff into a module in the admin-frontend of your [alchemy_cms](https://github.com/magiclabs/alchemy_cms) driven application.
 
