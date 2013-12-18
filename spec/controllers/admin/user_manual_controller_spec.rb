@@ -1,5 +1,3 @@
-# ToDo: Get this working ;)
-
 require "spec_helper"
 
 module Alchemy
