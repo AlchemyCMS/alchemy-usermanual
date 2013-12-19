@@ -4,7 +4,7 @@
 
 This gem checks your `page_layouts.yml` and `elements.yml` and wraps all the interesting stuff into a module in the admin-frontend of your [alchemy_cms](https://github.com/magiclabs/alchemy_cms) driven application.
 
-The users that are logged in to alchemy can read through the self explaining website configuration.
+The users that are logged in to Alchemy can read through the self explaining website configuration.
 
 ## Installation
 
@@ -19,7 +19,7 @@ And then run `bundle install` on your terminal.
 
 ## Usage
 
-You just need to add the gem to your alchemy driven application. Then the manual module will be available for the user.
+You just need to add the gem to your Alchemy driven application. Then the manual module will be available for the user.
 
 By default translated informations of the `page_layouts.yml` and `elements.yml` files are presented to the user.
 If you like to extend the default informations with your individual hints for page_layouts or elements, you can store that translatable hints in your page_layouts.yml` and `elements.yml`.
