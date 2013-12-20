@@ -1,6 +1,9 @@
 <% content_for :stylesheets do %>
   <%= stylesheet_link_tag 'alchemy/user_manual' %>
 <% end %>
+<% content_for :javascripts do %>
+  <%= javascript_include_tag 'alchemy/user_manual' %>
+<% end %>
 <div class="alchemy_user_manual wrapper">
   <%= raw @manual.html_content %>
 </div>
