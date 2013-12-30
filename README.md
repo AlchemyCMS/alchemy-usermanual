@@ -2,7 +2,7 @@
 
 [![Build Status](https://secure.travis-ci.org/magiclabs/alchemy-usermanual.png)](http://travis-ci.org/magiclabs/alchemy-usermanual) [![Coverage Status](https://coveralls.io/repos/magiclabs/alchemy-usermanual/badge.png)](https://coveralls.io/r/magiclabs/alchemy-usermanual) [![Code Climate](https://codeclimate.com/github/magiclabs/alchemy-usermanual.png)](https://codeclimate.com/github/magiclabs/alchemy-usermanual)
 
-The version 0.9.x is used to work with [Alchemy CMS 2.7-stable](https://github.com/magiclabs/alchemy_cms/tree/2.7-stable)
+The version 1.x is used to work with [Alchemy CMS 3.x](https://github.com/magiclabs/alchemy_cms/tree/master)
 
 The alchemy-usermanual gem reads your `page_layouts.yml` and `elements.yml` and wraps all the interesting stuff into a module rendered in the admin-frontend of your Alchemy CMS driven application.
 
@@ -13,7 +13,7 @@ Users that are logged in to Alchemy can read through the self-explaining website
 Add this line to your application's `Gemfile`:
 
 ~~~
-gem 'alchemy-usermanual', '~> 0.9'
+gem 'alchemy-usermanual', '~> 1.0'
 ~~~
 
 And then run `bundle install` on your terminal.

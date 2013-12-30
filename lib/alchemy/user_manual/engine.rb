@@ -11,11 +11,9 @@ module Alchemy
         ]
       end
 
-      def self.add_auth_rules
-        Alchemy::Auth::Engine.get_instance.load(File.join(File.dirname(__FILE__), '../../..', 'config/authorization_rules.rb'))
+      initializer 'alchemy_register_user_manual_ability' do
+        Alchemy.register_ability Alchemy::UserManual::Ability
       end
-
-      config.to_prepare &method(:add_auth_rules).to_proc
     end
   end
 end
