@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Alchemy::UserManual::VERSION
   spec.authors       = ["Robin Böning"]
   spec.email         = ["rb@magiclabs.de"]
-  spec.description   = "This gem adds a user manual module to your alchemy cms driven application."
-  spec.summary       = "This gem adds a user manual module to your alchemy cms driven application."
+  spec.description   = "This gem adds a user manual module to your Alchemy CMS driven application."
+  spec.summary       = "This gem adds a user manual module to your Alchemy CMS driven application."
   spec.homepage      = "http://magiclabs.de"
   spec.license       = "BSD New"
 
@@ -17,7 +17,7 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
 
-  spec.add_dependency "alchemy_cms", "3.0.0.alpha"
+  spec.add_dependency "alchemy_cms", "~> 3.0.0.beta1"
   spec.add_dependency "redcarpet"
   spec.add_dependency "github-markdown", "~> 0.6.3"
 
