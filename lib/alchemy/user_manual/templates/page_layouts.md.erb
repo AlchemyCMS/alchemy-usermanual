@@ -4,7 +4,7 @@
 
 ### <%= PageLayout.human_layout_name(l["name"]) %>
 
-<%= I18n.t(l.values.first, scope: 'page_layout_hints', default: I18n.t("no_description", :scope => "user_manual")) %>
+<%= I18n.t(l.values.first, scope: 'page_layout_hints', default: l['hint'] ||  I18n.t("no_description", :scope => "user_manual")) %>
 
 |<%= layout_properties(l).map {|p| "#{property_name(p)}" }.join("|") %>|
 |<%= layout_properties(l).map {|p| "---" }.join("|") %>|

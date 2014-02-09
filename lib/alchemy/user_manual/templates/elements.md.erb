@@ -4,7 +4,7 @@
 
 ### <a name="<%= element_anchor_name(e.values.first) %>"></a><%= translated_element_name(e.values.first) %>
 
-<%= I18n.t(e.values.first, scope: 'element_hints', default: I18n.t("no_description", :scope => "user_manual")) %>
+<%= I18n.t(e.values.first, scope: 'element_hints', default: e['hint'] || I18n.t("no_description", :scope => "user_manual")) %>
 
 |<%= element_properties(e).map {|p| "#{property_name(p)}" }.join("|") %>|
 |<%= element_properties(e).map {|p| "---" }.join("|") %>|
