@@ -1,10 +1,10 @@
-## 1. <a name="page_layouts"></a> <%= I18n.t("page_layout_descriptions", :scope => "user_manual") %>
+## 1. <a name="page_layouts"></a> <%= Alchemy.t("page_layout_descriptions", scope: "user_manual") %>
 
 <% Alchemy::PageLayout.all.each do |l| %>
 
 ### <%= PageLayout.human_layout_name(l["name"]) %>
 
-<%= I18n.t(l.values.first, scope: 'page_layout_hints', default: l['hint'] ||  I18n.t("no_description", :scope => "user_manual")) %>
+<%= Alchemy.t(l.values.first, scope: 'page_layout_hints', default: l['hint'] ||  Alchemy.t("no_description", scope: "user_manual")) %>
 
 |<%= layout_properties(l).map {|p| "#{property_name(p)}" }.join("|") %>|
 |<%= layout_properties(l).map {|p| "---" }.join("|") %>|

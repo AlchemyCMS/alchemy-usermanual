@@ -5,7 +5,7 @@ module Alchemy
       private
 
       def translated_element_name(name)
-        I18n.t(name, scope: 'element_names', default: name.humanize)
+        Alchemy.t(name, scope: 'element_names', default: name.humanize)
       end
 
       def element_anchor_name(element_name)
@@ -26,11 +26,11 @@ module Alchemy
       end
 
       def property_name(property)
-        I18n.t(property.first, :scope => "user_manual")
+        Alchemy.t(property.first, scope: "user_manual")
       end
 
       def property_value(property)
-        I18n.t(property.last, :scope => "user_manual")
+        Alchemy.t(property.last, scope: "user_manual")
       end
 
       def linked_element_collection(element_names=[])
