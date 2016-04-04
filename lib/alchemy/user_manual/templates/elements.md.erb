@@ -1,6 +1,6 @@
 ## 2. <a name="elements"></a> <%= I18n.t("element_descriptions", :scope => "user_manual") %>
 
-<% Alchemy::Element.descriptions.each do |e| %>
+<% Alchemy::Element.definitions.each do |e| %>
 
 ### <a name="<%= element_anchor_name(e.values.first) %>"></a><%= translated_element_name(e.values.first) %>
 

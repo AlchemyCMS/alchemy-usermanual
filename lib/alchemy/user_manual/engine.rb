@@ -6,6 +6,7 @@ module Alchemy
 
       initializer 'alchemy_user_manual.assets' do |app|
         app.config.assets.precompile += [
+          "alchemy/icon_user_manual.png",
           "alchemy/user_manual.css",
           "alchemy/user_manual.js"
         ]
