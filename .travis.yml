@@ -4,6 +4,8 @@ rvm:
 branches:
   only:
     - master
+before_install:
+  - gem install bundler
 script: rake
 env:
   - DB=mysql
