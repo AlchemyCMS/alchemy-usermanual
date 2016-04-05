@@ -1,8 +1,10 @@
 ## On-site user manual for Alchemy CMS
 
-[![Build Status](https://secure.travis-ci.org/magiclabs/alchemy-usermanual.png)](http://travis-ci.org/magiclabs/alchemy-usermanual) [![Coverage Status](https://coveralls.io/repos/magiclabs/alchemy-usermanual/badge.png)](https://coveralls.io/r/magiclabs/alchemy-usermanual) [![Code Climate](https://codeclimate.com/github/magiclabs/alchemy-usermanual.png)](https://codeclimate.com/github/magiclabs/alchemy-usermanual)
+[![Build Status](https://secure.travis-ci.org/AlchemyCMS/alchemy-usermanual.svg)](http://travis-ci.org/AlchemyCMS/alchemy-usermanual)
+[![Test Coverage](https://codeclimate.com/github/AlchemyCMS/alchemy-usermanual/badges/coverage.svg)](https://codeclimate.com/github/AlchemyCMS/alchemy-usermanual/coverage)
+[![Code Climate](https://codeclimate.com/github/AlchemyCMS/alchemy-usermanual/badges/gpa.svg)](https://codeclimate.com/github/AlchemyCMS/alchemy-usermanual)
 
-The version 1.x is used to work with [Alchemy CMS 3.x](https://github.com/magiclabs/alchemy_cms/tree/master)
+The version 1.x is used to work with [Alchemy CMS 3.x](https://github.com/AlchemyCMS/alchemy_cms/tree/master)
 
 The alchemy-usermanual gem reads your `page_layouts.yml` and `elements.yml` and wraps all the interesting stuff into a module rendered in the admin-frontend of your Alchemy CMS driven application.
 
