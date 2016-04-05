@@ -1,0 +1,25 @@
+---
+engines:
+  brakeman:
+    enabled: true
+  coffeelint:
+    enabled: false
+  duplication:
+    enabled: true
+    config:
+      languages:
+      - ruby
+  fixme:
+    enabled: true
+  rubocop:
+    enabled: true
+ratings:
+  paths:
+  - Gemfile.lock
+  - "**.erb"
+  - "**.haml"
+  - "**.rb"
+  - "**.slim"
+exclude_paths:
+- config/
+- spec/
