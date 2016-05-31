@@ -15,6 +15,22 @@ module Alchemy
           controller.send :show
           expect(assigns :manual).to be_instance_of(UserManual::Creator)
         end
+
+        context 'with Alchemy.admin_path customised' do
+          before(:all) do
+            Alchemy.admin_path = '/backend'
+            Rails.application.reload_routes!
+          end
+
+          it 'uses the custom admin path' do
+            expect(admin_usermanual_path).to eq('/backend/usermanual')
+          end
+
+          after(:all) do
+            Alchemy.admin_path = '/admin'
+            Rails.application.reload_routes!
+          end
+        end
       end
     end
   end
