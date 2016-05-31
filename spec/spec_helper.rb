@@ -20,4 +20,5 @@ Rails.logger.level = 4
 RSpec.configure do |config|
   config.use_transactional_fixtures = true
   config.include FactoryGirl::Syntax::Methods
+  config.include Alchemy::Engine.routes.url_helpers
 end
